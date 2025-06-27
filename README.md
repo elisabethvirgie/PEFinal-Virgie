@@ -64,7 +64,7 @@ C = \frac{\Delta I_L}{8 \cdot f_{sw} \cdot \Delta V_o}
 
 ---
 
-## 🎛️ Controller Design
+## Controller Design
 
 A **Proportional-Integral (PI) Controller** is used in a cascaded voltage-mode control loop:
 
@@ -90,26 +90,26 @@ Values are applied directly in the PLECS simulation control block.
 
 ### Inductor Current Ripple
 
-- Measured ripple: 1.8 A ↔ 2.2 A → ΔIL = 0.4 A  
-- ✔️ Meets the 20% design target
+- Measured ripple: 1.8 A ↔ 2.2 A → ΔIL = 0.4 A
+- Meets the 20% design target
 
 ### Output Voltage Ripple
 
 - Voltage range: 11.94 V ↔ 12.06 V → ΔVo = 0.12 V  
-- ✔️ Within the 1% tolerance (0.12 V)
+- Within the 1% tolerance (0.12 V)
 
 ### Sudden Load Change Test
 
 - Load step applied at **t = 1 s**
 - Transient observed in Vout and IL
 - Output returns to steady 12 V quickly  
-- ✔️ Demonstrates fast dynamic response and stability
+- Demonstrates fast dynamic response and stability
 
 ### Reference Step Response
 
 - Step change at **t = 5 s**
 - Output overshoots (~24 V), settles after oscillation
 - Inductor current tracks new demand  
-- ✔️ Controller effectively tracks new reference
+- Controller effectively tracks new reference
 
 ---

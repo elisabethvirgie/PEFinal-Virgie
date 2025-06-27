@@ -1,7 +1,7 @@
 # Power Electronics Final Project 2025
 ## Task 1: Buck Converter Design
 Elisabeth Virginia Putri Harmadianti | 22/505938/TK/55406  
-Department of Electrical Engineering, Universitas Gadjah Mada  
+Department of Electrical Engineering and Information Technology, Universitas Gadjah Mada  
 
 ---
 

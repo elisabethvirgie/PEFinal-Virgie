@@ -1,0 +1,22 @@
+Circuit: * C:\Users\evph1\Desktop\PE Final Exam\PEFinal\Simulation\task1LTSPICE_openloop.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Wed Jun 25 18:02:08 2025
+Total elapsed time: 0.276 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 36331
+traniter = 36327
+tranpoints = 13416
+accept = 10765
+rejected = 2651
+matrix size = 6
+fillins = 0
+solver = Normal
+Avg thread counts: 1.2/1.4/1.5/1.2
+Matrix Compiler1:       8 opcodes  0.2/[0.2]/0.2
+Matrix Compiler2: 366 bytes object code size  0.2/0.3/[0.2]
+

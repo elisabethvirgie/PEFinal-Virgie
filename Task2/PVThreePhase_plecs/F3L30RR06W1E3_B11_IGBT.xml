@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SemiconductorLibrary xmlns="http://www.plexim.com/xml/semiconductors/" version="1.0">
+    <Package class="IGBT" vendor="Infineon" partnumber="F3L30R06W1E3_B11_IGBT">
+        <SemiconductorData type="IGBT">
+            <TurnOnLoss>
+                <CurrentAxis> 0 15 30 45 60</CurrentAxis>
+                <VoltageAxis> 0 150 300 450 600</VoltageAxis>
+                <TemperatureAxis> 25 125 150</TemperatureAxis>
+                <Energy scale="0.001">
+                    <Temperature>
+                        <Voltage> 0 0 0 0 0</Voltage>
+                        <Voltage> 0 0.053 0.09 0.123 0.155</Voltage>
+                        <Voltage> 0 0.106 0.18 0.247 0.31</Voltage>
+                        <Voltage> 0 0.159 0.27 0.37 0.465</Voltage>
+                        <Voltage> 0 0.212 0.36 0.494 0.62</Voltage>
+                    </Temperature>
+                    <Temperature>
+                        <Voltage> 0 0 0 0 0</Voltage>
+                        <Voltage> 0 0.083 0.141 0.192 0.244</Voltage>
+                        <Voltage> 0 0.165 0.282 0.384 0.488</Voltage>
+                        <Voltage> 0 0.247 0.423 0.576 0.732</Voltage>
+                        <Voltage> 0 0.33 0.563 0.768 0.976</Voltage>
+                    </Temperature>
+                    <Temperature>
+                        <Voltage> 0 0 0 0 0</Voltage>
+                        <Voltage> 0 0.091 0.155 0.212 0.266</Voltage>
+                        <Voltage> 0 0.182 0.309 0.424 0.533</Voltage>
+                        <Voltage> 0 0.273 0.464 0.636 0.799</Voltage>
+                        <Voltage> 0 0.364 0.619 0.849 1.066</Voltage>
+                    </Temperature>
+                </Energy>
+            </TurnOnLoss>
+            <TurnOffLoss>
+                <CurrentAxis> 0 15 30 45 60</CurrentAxis>
+                <VoltageAxis> 0 150 300 450 600</VoltageAxis>
+                <TemperatureAxis> 25 125 150</TemperatureAxis>
+                <Energy scale="0.001">
+                    <Temperature>
+                        <Voltage> 0 0 0 0 0</Voltage>
+                        <Voltage> 0 0.22 0.375 0.507 0.635</Voltage>
+                        <Voltage> 0 0.44 0.75 1.014 1.27</Voltage>
+                        <Voltage> 0 0.66 1.125 1.52 1.905</Voltage>
+                        <Voltage> 0 0.881 1.5 2.028 2.54</Voltage>
+                    </Temperature>
+                    <Temperature>
+                        <Voltage> 0 0 0 0 0</Voltage>
+                        <Voltage> 0 0.271 0.462 0.629 0.788</Voltage>
+                        <Voltage> 0 0.542 0.924 1.258 1.576</Voltage>
+                        <Voltage> 0 0.813 1.385 1.887 2.364</Voltage>
+                        <Voltage> 0 1.085 1.847 2.516 3.152</Voltage>
+                    </Temperature>
+                    <Temperature>
+                        <Voltage> 0 0 0 0 0</Voltage>
+                        <Voltage> 0 0.288 0.49 0.662 0.829</Voltage>
+                        <Voltage> 0 0.575 0.98 1.324 1.659</Voltage>
+                        <Voltage> 0 0.863 1.469 1.987 2.488</Voltage>
+                        <Voltage> 0 1.15 1.959 2.649 3.317</Voltage>
+                    </Temperature>
+                </Energy>
+            </TurnOffLoss>
+            <ConductionLoss>
+                <CurrentAxis> 0 2 5 10 20 30 40 50 60</CurrentAxis>
+                <TemperatureAxis> 25 125 150</TemperatureAxis>
+                <VoltageDrop scale="1">
+                    <Temperature> 0 0.806 0.936 1.077 1.313 1.511 1.704 1.895 2.084</Temperature>
+                    <Temperature> 0 0.696 0.866 1.074 1.398 1.704 1.987 2.269 2.551</Temperature>
+                    <Temperature> 0 0.623 0.844 1.072 1.447 1.777 2.097 2.407 2.718</Temperature>
+                </VoltageDrop>
+            </ConductionLoss>
+        </SemiconductorData>
+        <ThermalModel>
+            <Branch type="Foster">
+                <RTauElement R="0.142" Tau="0.0005"/>
+                <RTauElement R="0.309" Tau="0.005"/>
+                <RTauElement R="0.719" Tau="0.05"/>
+                <RTauElement R="0.58" Tau="0.2"/>
+            </Branch>
+        </ThermalModel>
+        <Comment>
+            <Line></Line>
+        </Comment>
+    </Package>
+</SemiconductorLibrary>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SemiconductorLibrary xmlns="http://www.plexim.com/xml/semiconductors/" version="1.0">
+    <Package class="Diode" vendor="Infineon" partnumber="F3L30R06W1E3_B11_Diode">
+        <SemiconductorData type="Diode">
+            <TurnOnLoss>
+                <CurrentAxis> 0</CurrentAxis>
+                <VoltageAxis> 0</VoltageAxis>
+                <TemperatureAxis> 25</TemperatureAxis>
+                <Energy scale="0.001">
+                    <Temperature>
+                        <Voltage> 0</Voltage>
+                    </Temperature>
+                </Energy>
+            </TurnOnLoss>
+            <TurnOffLoss>
+                <CurrentAxis> 0 15 30 45 60</CurrentAxis>
+                <VoltageAxis> -600 -450 -300 -150 0</VoltageAxis>
+                <TemperatureAxis> 25 125 150</TemperatureAxis>
+                <Energy scale="0.001">
+                    <Temperature>
+                        <Voltage> 0 0.498 0.74 0.891 0.992</Voltage>
+                        <Voltage> 0 0.373 0.555 0.668 0.744</Voltage>
+                        <Voltage> 0 0.249 0.37 0.445 0.496</Voltage>
+                        <Voltage> 0 0.124 0.185 0.223 0.248</Voltage>
+                        <Voltage> 0 0 0 0 0</Voltage>
+                    </Temperature>
+                    <Temperature>
+                        <Voltage> 0 0.856 1.265 1.524 1.728</Voltage>
+                        <Voltage> 0 0.642 0.949 1.143 1.296</Voltage>
+                        <Voltage> 0 0.428 0.632 0.762 0.864</Voltage>
+                        <Voltage> 0 0.214 0.316 0.381 0.432</Voltage>
+                        <Voltage> 0 0 0 0 0</Voltage>
+                    </Temperature>
+                    <Temperature>
+                        <Voltage> 0 0.989 1.47 1.77 1.97</Voltage>
+                        <Voltage> 0 0.741 1.103 1.327 1.479</Voltage>
+                        <Voltage> 0 0.494 0.735 0.885 0.986</Voltage>
+                        <Voltage> 0 0.247 0.368 0.442 0.493</Voltage>
+                        <Voltage> 0 0 0 0 0</Voltage>
+                    </Temperature>
+                </Energy>
+            </TurnOffLoss>
+            <ConductionLoss>
+                <CurrentAxis> 0 2 5 10 20 30 40 50 60</CurrentAxis>
+                <TemperatureAxis> 25 125 150</TemperatureAxis>
+                <VoltageDrop scale="1">
+                    <Temperature> 0 0.908 1.058 1.211 1.421 1.591 1.739 1.876 2</Temperature>
+                    <Temperature> 0 0.73 0.898 1.079 1.336 1.539 1.716 1.877 2.035</Temperature>
+                    <Temperature> 0 0.668 0.844 1.037 1.298 1.51 1.691 1.86 2.012</Temperature>
+                </VoltageDrop>
+            </ConductionLoss>
+        </SemiconductorData>
+        <ThermalModel>
+            <Branch type="Foster">
+                <RTauElement R="0.215" Tau="0.0005"/>
+                <RTauElement R="0.396" Tau="0.005"/>
+                <RTauElement R="0.752" Tau="0.05"/>
+                <RTauElement R="0.537" Tau="0.2"/>
+            </Branch>
+        </ThermalModel>
+        <Comment>
+            <Line></Line>
+        </Comment>
+    </Package>
+</SemiconductorLibrary>
